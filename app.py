@@ -23,7 +23,7 @@ if not os.path.exists(model_path) or not os.path.exists(tfidf_path):
            The training process and model saving are done within the Jupyter notebook. 
            Execute the `train_model.ipynb` notebook to train and save the model and TF-IDF vectorizer:
            ```bash
-           python train_model.pypy
+           python train_model.py
            ```
 
         3. **Stop and rerun the app**
